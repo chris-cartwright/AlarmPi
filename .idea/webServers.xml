@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f07c4084-8e0e-4ac5-b3f6-7242dd308531" name="AlarmPi" url="http://sponge-alarmpi">
+        <fileTransfer host="sponge-alarmpi" port="22" rootFolder="/home/pi/AlarmPi/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
