@@ -29,7 +29,7 @@ def clock():
         init_display()
 
     display.clear()
-    display.print_number_str(time.strftime('%I%M'))
+    display.print_number_str(time.strftime('%I%M').lstrip('0'))
     display.set_colon(colon)
     display.write_display()
 
